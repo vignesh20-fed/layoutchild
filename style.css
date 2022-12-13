@@ -1,0 +1,300 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	background-color:yellow;
+}
+.container{
+	width:85%;
+	margin:0 auto;
+}
+/*================== order =================*/
+.order{
+	display:flex;
+
+}
+
+.col1{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	order:4;
+}
+.col2{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	order:3;
+}
+.col3{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	order:2;
+}
+.col4{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	order:1;
+}
+/*================== grow =================*/
+.grow{
+	display:flex;
+
+}
+
+.col5{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	flex-grow:8;
+}
+.col6{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	
+}
+.col7{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+
+}
+.col8{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	
+}
+
+/*================== shrink =================*/
+.shrink{
+	display:flex;
+     
+}
+
+.col9{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+}
+.col10{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	flex-shrink:-2;
+   
+}
+.col11{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+   
+}
+.col12{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+
+}
+
+/*================== flex =================*/
+.flex{
+	display:flex;
+
+}
+
+.col19{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	
+}
+.col20{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	flex:0 3 500px;
+}
+.col21{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+   
+}
+.col22{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+   
+}
+
+/*================== align-self =================*/
+.alignstart{
+	display:flex;
+    
+}
+
+.col23{
+     width:200px;
+	height:50vh;
+	background-color:red;
+	border:5px solid gray;
+	align-self:flex-start;
+	
+}
+.col24{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+   
+}
+.col25{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+	
+
+}
+.col26{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+
+}
+
+
+.aligncenter{
+	display:flex;
+    
+}
+
+.cola{
+    width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+
+	
+}
+.colcen{
+	width:200px;
+	height:50vh;
+	background-color:red;
+	border:5px solid gray;
+   	align-self:flex-center;
+}
+.colb{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+	
+
+}
+.colc{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+
+}
+
+.alignend{
+	display:flex;  
+}
+
+.cole{
+    width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+
+	
+}
+.colf{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+   
+}
+.colg{
+	width:200px;
+	height:50vh;
+	background-color:red;
+	border:5px solid gray;
+    align-self:flex-end;
+}
+.colh{
+	width:200px;
+	height:80vh;
+	background-color:red;
+	border:5px solid gray;
+
+}	
+/*================== basis =================*/
+.basis{
+	display:flex;
+	
+
+}
+
+.col27{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	
+	
+}
+.col28{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+    flex-basis:600px;
+}
+.col29{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+	align-self:flex-end;
+
+}
+.col30{
+	width:200px;
+	height:40vh;
+	background-color:red;
+	border:5px solid gray;
+
+}
+
+
+
+
